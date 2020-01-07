@@ -7,9 +7,9 @@
 <h4>3. Start App<h4>
         >python manage.py startapp doapp
 <h4>4. Start Standard Sqlite<h4>
-        >python manage.py migrate
+        <p style="color:green;"> >python manage.py migrate</p>
 <h4>5. Create Administator Account 👤<h4>
-        >python manage.py createsuperuser
+        <p style="color:green;">  >python manage.py createsuperuser </p>
 <h4>6. Create Templates<h4>
 ![base template](https://user-images.githubusercontent.com/58941334/71898773-2f1e5480-316b-11ea-973d-6fc0bf39f6b7.PNG)
 ![index template](https://user-images.githubusercontent.com/58941334/71898066-65f36b00-3169-11ea-8ddb-f077d15a343f.PNG)
@@ -20,9 +20,11 @@
 <h4>9. Websettings<h4>
         ![settings-add app](https://user-images.githubusercontent.com/58941334/71898605-cafb9080-316a-11ea-9bce-f20148564853.PNG)
 <h4>10. Handling the app on local host<h4>
+        <p style="color:green;"> 
         > python manage.py migrate
         > python manage.py makemigrations
         > python manage.py runserver
+        </p>
         
 <h3> Here is my final output after adding bootsrap and some css 👇</h3>
 ![final](https://user-images.githubusercontent.com/58941334/71898892-83c1cf80-316b-11ea-9ded-1d5eb787233c.PNG)
