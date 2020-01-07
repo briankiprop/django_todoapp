@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="add" method="POST">{% csrf_token %}
+    <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" name="addhead" placeholder="Enter ToDo Time/headline.." required>
+    </div>
+    <div class="col-7">
+      <input type="t" class="form-control" name="addtodo" placeholder="Add ToDo here..." required>
+    </div>
+    <div class="col">
+      <button type="submit" class="btn btn-primary mb-2">Add What To Do</button>
+    </div>
+  </div>
+</form>
+
+
+{% for object in objects %}
+<hr>
+<div class="card">
+  <div class="card-header">
+      Added on {{object.time}}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{object.head}}</h5>
+    <p class="card-text">{{object.todo}}</p>
+      <form action="delete/{{object.id}}" method="POST">{% csrf_token %}
+    <button type="submit" class="btn btn-primary mb-2">DELETE</button>
+          </form>
+  </div>
+</div>
+
+{% endfor %}
+
+{% endblock content %}
