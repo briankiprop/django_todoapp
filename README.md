@@ -25,6 +25,8 @@
         > python manage.py makemigrations
         > python manage.py runserver
         </p>
+ <h4>From the clone should look like this 👇</h4>
+     ![final](https://user-images.githubusercontent.com/58941334/71900092-2418f380-316e-11ea-889c-42fda62f58b9.PNG)   
         
 <h3> Here is my final output after adding bootsrap and some css 👇</h3>
-![final](https://user-images.githubusercontent.com/58941334/71898892-83c1cf80-316b-11ea-9ded-1d5eb787233c.PNG)
+![final-output](https://user-images.githubusercontent.com/58941334/71899934-d603f000-316d-11ea-8af1-eb9e5d500fd8.PNG)
