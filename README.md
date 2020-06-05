@@ -11,6 +11,7 @@
 <h4>5. Create Administator Account 👤<h4>
         <p style="color:green;">  >python manage.py createsuperuser </p>
 <h4>6. Create Templates<h4>
+![Screenshot](base.jpeg)
 ![base template](https://user-images.githubusercontent.com/58941334/71898773-2f1e5480-316b-11ea-973d-6fc0bf39f6b7.PNG)
 ![index template](https://user-images.githubusercontent.com/58941334/71898066-65f36b00-3169-11ea-8ddb-f077d15a343f.PNG)
 <h4>7. craete views<h4>
